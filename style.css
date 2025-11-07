@@ -2,7 +2,9 @@
   --bg: #b7e5cd;
   --header: #ddf4e7;
   --logo: #ea2264;
-  --heading: #3a1078;
+  --name-heading: #3a1078;
+  --main-heading: #8f87f1;
+  --content-heading: #ff8383;
 }
 * {
   margin: 0;
@@ -42,11 +44,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-#profile-image {
-  border-radius: 50%;
 
-  border: 3px solid #000;
-}
 ul {
   list-style: none;
   display: flex;
@@ -59,8 +57,41 @@ li a {
 
 /* main section */
 h2 {
-  color: var(--heading);
+  color: var(--name-heading);
   font-family: "Moon Dance", cursive;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
+}
+#profile-image {
+  height: 200px;
+  width: 200px;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-content: center;
+  gap: 100px;
+}
+.profile-info {
+  margin-left: 30px;
+  height: 500px;
+  width: 500px;
+  padding: 10px 35px;
+
+  font-size: 14px;
+}
+h3 {
+  padding: 10px 0px;
+  color: var(--main-heading);
+}
+h4 {
+  padding: 4px 0px;
+  color: black;
+  font-size: 13px;
+}
+.profile-experience {
+  font-size: 14px;
+  padding: 10px 55px;
 }
