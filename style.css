@@ -52,10 +52,7 @@ nav {
   background: var(--nav-bg);
   border-radius: 10px;
 }
-.box {
-  background: #ddf4e7;
-  box-shadow: 1px #8f87f1;
-}
+
 ul {
   list-style: none;
   display: flex;

@@ -1,34 +1,46 @@
-# Web Playground
+# 🌸 Personal Profile Page — Using HTML & CSS
 
-This repository is part of **Session 1 & 2** of the Thinkbridge Web Fundamentals Program.  
-It contains the VS Code setup, Prettier configuration, and basic Git configuration practice.
+### 👩‍💻 Project Overview
 
----
+This project is a **personal profile webpage** designed using **HTML5** and **CSS3**, applying all the foundational and intermediate concepts I’ve learned so far — including:
 
-## 🧩 Session 1: VS Code Fundamentals + Extensions
-
-### 🔧 Installed Extensions
-
-| Extension Name                | Description                                                  |
-| ----------------------------- | ------------------------------------------------------------ |
-| **Prettier - Code Formatter** | Automatically formats code on save to maintain consistency   |
-| **Live Server**               | Launches a local development server with live reload feature |
-| **ESLint**                    | Highlights and fixes JavaScript syntax/style errors          |
+- Semantic HTML structure
+- CSS variables (`:root`)
+- Flexbox and Grid layouts
+- Hover transitions
+- Custom color themes using CSS variables
+- Typography and Google Fonts integration
 
 ---
 
-### ⚙️ VS Code Configuration
+## 🎯 Objective
 
-🧱 Session 2: Git Basics - Local Workflow
-🧰 Git Configuration
+To design and develop a **clean, responsive, and visually appealing profile page** that showcases personal details such as:
 
-Before making commits, Git user details were configured:
+- Name and contact info
+- Profile image
+- About Me section
+- Experience and Education
+- Skills (in a table)
+- Projects summary
 
-git config --global user.name "Tanaya Ghate"
-git config --global user.email "tanughate05@gmail.com"
-git config --global init
+---
 
-git log --
-commit dee7d79b2c91430528633c862db1d4a29055ad87 (HEAD -> main, origin/main)
-Author: Tanaya Ghate <tanughate05@gmail.com>
-Date: Thu Nov 6 15:55:17 2025 +0530
+## 🧩 Key Features
+
+### 🪄 **1. Theming with CSS Variables**
+
+Defined global theme colors using the `:root` selector for easy color management:
+
+```css
+:root {
+  --bg: #b7e5cd;
+  --header: #ddf4e7;
+  --logo: #ea2264;
+  --name-heading: #3a1078;
+  --main-heading: #8f87f1;
+  --content-heading: #ff8383;
+  --table-heading: #fba518;
+  --nav-bg: #210f37;
+}
+```
