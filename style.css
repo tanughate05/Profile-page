@@ -52,7 +52,10 @@ nav {
   background: var(--nav-bg);
   border-radius: 10px;
 }
-
+.box {
+  background: #ddf4e7;
+  box-shadow: 1px #8f87f1;
+}
 ul {
   list-style: none;
   display: flex;
@@ -61,6 +64,10 @@ ul {
 li a {
   text-decoration: none;
   color: var(--logo);
+}
+li a:hover {
+  color: var(--table-heading);
+  letter-spacing: 0.2rem;
 }
 
 /* main section */
