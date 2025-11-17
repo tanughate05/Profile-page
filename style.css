@@ -199,7 +199,7 @@ table {
     width: 470px;
   }
 }
-
+/* ------------------------------- */
 @media screen and (max-width: 450px) {
   /* Main container */
   .container {
@@ -235,23 +235,25 @@ table {
     text-align: center;
   }
 
+  /* Flex becomes vertical */
   .flex-container {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     gap: 25px;
     width: 100%;
     height: auto;
     transform: scale(1);
   }
 
+  /* Left Section */
   .profile-info {
     width: 100%;
     margin-left: 0;
     padding: 12px;
     text-align: center;
-    border-right: 2px solid black;
   }
 
+  /* Mobile profile image */
   #profile-image {
     width: 140px;
     height: 140px;
@@ -260,6 +262,7 @@ table {
     margin: auto;
   }
 
+  /* Social Links */
   .social-links ul {
     display: block;
     text-align: center;
